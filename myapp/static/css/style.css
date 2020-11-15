@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.topnav {
+    overflow: hidden;
+    background-color: wh;
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover, a.active{
+    color: #e1756b;
+}   
+
+.menu-bar{
+    align-self: center
+}
+
+.cover-home{
+    background-image: url('../image/cover_home.jpg');
+    background-size: cover;
+    height: 1024px;
+}
